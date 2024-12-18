@@ -73,14 +73,30 @@ if(y%4==0 and y%100!=0) or (y%400==0):
       print("leap year")
 else:
     print("Not leap year")
-'''
+
 
 #write a program to give factors of the number
 n=int(input("Enter A number"))
 for i in range(1,n,1):
     if (n%i)==0:
         print(i)
-    
+
+
+n=int(input("Enter a Number"))
+if(n>=1):
+    print("Positive Number")
+elif(n<0):
+    print("Negative Number")
+else:
+    print("Zero")
+
+'''
+
+def msg(x=10):
+    print(x)
+msg(5)
+
+
 
 
 
